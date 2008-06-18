@@ -14,6 +14,11 @@ Hoe.new('test-unit-full', version) do |p|
   p.developer('Ryan Davis', 'ryand-ruby@zenspider.com')
 
   p.rubyforge_name = "test-unit"
+
+  p.extra_deps = ["test-unit",
+                  "test-unit-runner-gtk2",
+                  "test-unit-runner-tk",
+                  "test-unit-runner-fox"]
 end
 
 task :tag do
