@@ -6,7 +6,7 @@ require 'test/unit/runner/tk'
 module Test
   module Unit
     module Full
-      VERSION = "0.0.1"
+      VERSION = "0.0.2"
     end
   end
 end
