@@ -18,7 +18,8 @@ Hoe.new('test-unit-full', version) do |p|
   p.extra_deps = ["test-unit",
                   "test-unit-runner-gtk2",
                   "test-unit-runner-tk",
-                  "test-unit-runner-fox"]
+                  "test-unit-runner-fox",
+                  "test-unit-notify"]
 end
 
 task :tag do
