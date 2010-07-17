@@ -1,9 +1,3 @@
-require 'test/unit'
-require 'test/unit/runner/gtk2'
-require 'test/unit/runner/fox'
-require 'test/unit/runner/tk'
-require 'test/unit/notify'
-
 module Test
   module Unit
     module Full
@@ -11,3 +5,9 @@ module Test
     end
   end
 end
+
+require 'test/unit'
+require 'test/unit/runner/gtk2'
+require 'test/unit/runner/fox'
+require 'test/unit/runner/tk'
+require 'test/unit/notify'
