@@ -1,3 +1,10 @@
+#--
+#
+# Author:: Kouhei Sutou
+# Copyright::
+#   * Copyright (c) 2008-2011 Kouhei Sutou <kou@clear-code.com>
+# License:: LGPLv2+
+
 module Test
   module Unit
     module Full
