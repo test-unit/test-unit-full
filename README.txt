@@ -20,6 +20,11 @@ Test::Unit::Full - A meta package to use all Test::Unit extensions.
 
 == LICENSE:
 
-(The Ruby License)
+LGPLv2.1 or later.
 
-This software is distributed under the same terms as ruby.
+(Kouhei Sutou has a right to change the license including
+contributed patches.)
+
+== AUTHORS:
+
+* Kouhei Sutou
