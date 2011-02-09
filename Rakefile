@@ -26,14 +26,14 @@ Hoe.spec('test-unit-full') do
   self.version = version
   self.rubyforge_name = "test-unit"
 
-  developer('Kouhei Sutou', 'kou@cozmixng.org')
-  developer('Ryan Davis', 'ryand-ruby@zenspider.com')
+  developer('Kouhei Sutou', 'kou@clear-code.com')
 
   extra_deps.concat([["test-unit"],
                      ["test-unit-runner-gtk2"],
                      ["test-unit-runner-tk"],
                      ["test-unit-runner-fox"],
-                     ["test-unit-notify"]])
+                     ["test-unit-notify"],
+                     ["test-unit-rr"]])
 end
 
 task :tag do
