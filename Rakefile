@@ -24,7 +24,6 @@ version = Test::Unit::Full::VERSION
 ENV["VERSION"] = version
 Hoe.spec('test-unit-full') do
   self.version = version
-  self.rubyforge_name = "test-unit"
 
   developer('Kouhei Sutou', 'kou@clear-code.com')
 
