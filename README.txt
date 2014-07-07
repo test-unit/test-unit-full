@@ -1,6 +1,6 @@
 = Test::Unit::Full
 
-* http://rubyforge.org/projects/test-unit/
+* https://github.com/test-unit/test-unit-full
 
 == DESCRIPTION:
 
