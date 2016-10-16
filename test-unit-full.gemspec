@@ -47,6 +47,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency("test-unit-runner-tap")
   spec.add_runtime_dependency("test-unit-notify")
   spec.add_runtime_dependency("test-unit-rr")
+  spec.add_runtime_dependency("test-unit-context")
   spec.add_development_dependency("bundler")
   spec.add_development_dependency("rake")
 end
