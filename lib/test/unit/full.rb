@@ -17,8 +17,7 @@
 require 'test/unit/full/version'
 
 require 'test/unit'
-require 'test/unit/runner/gtk2'
-require 'test/unit/runner/fox'
-require 'test/unit/runner/tk'
+require 'test/unit/runner/tap'
 require 'test/unit/notify'
 require 'test/unit/rr'
+require 'test/unit/context'
