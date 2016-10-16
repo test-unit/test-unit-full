@@ -44,6 +44,7 @@ Gem::Specification.new do |spec|
   spec.files += Dir.glob("doc/text/**/*.*")
 
   spec.add_runtime_dependency("test-unit")
+  spec.add_runtime_dependency("test-unit-runner-tap")
   spec.add_runtime_dependency("test-unit-notify")
   spec.add_runtime_dependency("test-unit-rr")
   spec.add_development_dependency("bundler")
