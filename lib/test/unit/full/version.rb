@@ -14,11 +14,10 @@
 # License along with this library; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
-require 'test/unit/full/version'
-
-require 'test/unit'
-require 'test/unit/runner/gtk2'
-require 'test/unit/runner/fox'
-require 'test/unit/runner/tk'
-require 'test/unit/notify'
-require 'test/unit/rr'
+module Test
+  module Unit
+    module Full
+      VERSION = "0.0.4"
+    end
+  end
+end
